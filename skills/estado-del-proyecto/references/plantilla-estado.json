@@ -1,0 +1,9 @@
+{
+  "descripcion": "Comprobaciones del proyecto para el tablero. Completar cada comando con el REAL del proyecto (README, scripts o integracion continua). Comando vacio = OMITIDA. Sin secretos.",
+  "comprobaciones": [
+    {"nombre": "Lint", "comando": "", "tiempo_max": 120},
+    {"nombre": "Tipos", "comando": "", "tiempo_max": 300},
+    {"nombre": "Pruebas", "comando": "", "tiempo_max": 600},
+    {"nombre": "Auditoria de dependencias", "comando": "", "tiempo_max": 120}
+  ]
+}

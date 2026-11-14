@@ -1,0 +1,27 @@
+{
+  "_comentario": "Mapa area -> skills / reglas / agentes. Sustituir los <marcadores>. Reglas: invocar-skills-reglas-agentes y archivos-protegidos.",
+  "version": "<AAAA-MM-DD>",
+  "mantiene": "<quien lo mantiene>",
+  "areas": {
+    "<area-1>": {
+      "patrones": ["<ruta/o/glob/**>"],
+      "skills": ["<skill-del-dominio>", "<skill-tecnica>"],
+      "reglas": ["<regla-aplicable>"],
+      "agentes": ["<agente-dedicado>"],
+      "protegida": false
+    },
+    "<area-2>": {
+      "patrones": ["<otra/ruta/**>"],
+      "skills": ["<skill>"],
+      "reglas": ["<regla>"],
+      "agentes": ["<agente>"],
+      "protegida": true
+    }
+  },
+  "huecos": ["<area sin skill dedicada>"],
+  "archivadas": {
+    "skills": [],
+    "reglas": [],
+    "agentes": []
+  }
+}
